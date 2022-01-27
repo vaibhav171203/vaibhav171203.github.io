@@ -1,0 +1,71 @@
+.navbar
+{
+    background-color:black;
+    border-radius: 15px;
+
+}
+.navbar
+li {
+    float: left;
+list-style: none;
+margin: 40px 30px;
+font-size: 30px;
+color: white;
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar
+ul{
+    overflow: auto;
+
+}
+.navbar
+li
+    a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color:white;
+        font-size: larger;
+    }
+    .navbar
+    li a:hover
+    {
+color: blue;
+    
+    }
+    .search
+    {
+        float: right;
+        color: white;
+        padding: 25px 75px ;
+    }
+    .navbar input{
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 25px 30px;
+        width: 250px;
+    }
+    .image
+    {
+    overflow: hidden;
+}
+.text
+{
+    text-align: center;
+    font-size: 2cm;
+    color: white;
+    text-overflow: clip;
+    padding: -1cm;
+    font-style: oblique;
+    text-decoration:white;
+    animation: normal;
+    background-image: url(https://wallpapercave.com/wp/Lp5mtcZ.jpg);
+}
+.para
+{
+    font-size: 1cm;
+    font-family: cursive;
+    font-style: italic;
+    background-color: black;
+    color: white;
+}

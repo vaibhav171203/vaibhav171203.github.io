@@ -1,0 +1,70 @@
+.navbar
+{
+    background-color:black;
+    border-radius: 15px;
+
+}
+.navbar
+li {
+    float: left;
+list-style: none;
+margin: 40px 30px;
+font-size: 30px;
+color: white;
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar
+ul{
+    overflow: auto;
+
+}
+.navbar
+li
+    a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color:white;
+        font-size: larger;
+    }
+    .navbar
+    li a:hover
+    {
+color: red;
+    
+    }
+    .search
+    {
+        float: right;
+        color: white;
+        padding: 25px 75px ;
+    }
+    .navbar input{
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 25px 30px;
+        width: 250px;
+    }
+    .text
+    {
+        text-align: center;
+        text-decoration: wavy;
+        font-size: 1.5cm;
+        font-family: cursive;
+        font-style: italic;
+        color:blue;
+    }
+    .clm
+   {
+       display:flex;
+    justify-content: space-between;
+    height: 300px;
+   }
+   .dance
+   {
+       font-size: 1.5cm;
+       background-color: black;
+       color: blue;
+       font-family: cursive;
+       font-style: italic;
+   }
